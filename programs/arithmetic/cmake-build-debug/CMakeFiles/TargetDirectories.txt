@@ -1,3 +1,0 @@
-C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir
-C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/arithmetic/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/arithmetic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
