@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/overflowUnderflow.dir/main.cpp.o"
-  "overflowUnderflow"
+  "CMakeFiles/overflowUnderflow.dir/main.cpp.obj"
+  "overflowUnderflow.exe"
+  "overflowUnderflow.exe.manifest"
+  "overflowUnderflow.lib"
   "overflowUnderflow.pdb"
 )
 

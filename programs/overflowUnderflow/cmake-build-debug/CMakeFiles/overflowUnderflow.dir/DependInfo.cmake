@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/main.cpp" "/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug/CMakeFiles/overflowUnderflow.dir/main.cpp.o"
+  "C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/main.cpp" "C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug/CMakeFiles/overflowUnderflow.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

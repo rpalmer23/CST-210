@@ -4,84 +4,88 @@
 	<Project>
 		<Option title="overflowUnderflow"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
+				<Option working_dir="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="overflowUnderflow">
-				<Option output="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug/overflowUnderflow" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
+				<Option output="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug/overflowUnderflow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 overflowUnderflow"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 overflowUnderflow"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="overflowUnderflow/fast">
-				<Option output="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug/overflowUnderflow" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
+				<Option output="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug/overflowUnderflow.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 overflowUnderflow/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/reganpalmer/OneDrive\ -\ Grand\ Canyon\ University/CST-210/programs/overflowUnderflow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 overflowUnderflow/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\regan\OneDrive - Grand Canyon University\CST-210\programs\overflowUnderflow\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/main.cpp">
+		<Unit filename="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/main.cpp">
 			<Option target="overflowUnderflow"/>
 		</Unit>
-		<Unit filename="/Users/reganpalmer/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/CMakeLists.txt">
+		<Unit filename="C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/overflowUnderflow/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
