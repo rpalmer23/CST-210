@@ -1,3 +1,7 @@
+//Regan Palmer
+//This is my own work
+//1-26-20
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -5,6 +9,7 @@ using namespace std;
 int main() {
 
 //NUMBER 1
+    cout << "-----NUMBER 1-----" << endl;
     int max, min;
     int values[5];
     cout << "Enter 5 integers: ";
@@ -40,9 +45,10 @@ int main() {
         min = values[4];
     }
 
-    cout << "Max integer is: " << max << ".\nMin integer is: " << min << ".";
+    cout << "Max integer is: " << max << ".\nMin integer is: " << min << "." << endl;
 
 //NUMBER 2
+    cout << "-----NUMBER 2-----" << endl;
     int counter = 0, total = 0, amt7 = 0;
 
     while(amt7 < 50) {
@@ -57,6 +63,7 @@ int main() {
 
 
 //NUMBER 3
+    cout <<"\n-----NUMBER 3-----" << endl;
     int counterB = 1, amt7B = 0;
 
     cout << "First 10 factorials of 7 are: ";
@@ -71,6 +78,7 @@ int main() {
 
 
 //NUMBER 4
+    cout << "\n-----NUMBER 4-----" << endl;
     string input;
     cout << "Enter a word to see if it's a palindrome: ";
     cin >> input;
@@ -93,10 +101,11 @@ int main() {
 
 
 //NUMBER 5
+    cout << "\n-----NUMBER 5-----" << endl;
     int inputInt;
     int factors = 0;
     cout << "Enter a positive integer to see if it's a prime number: ";
-    cin >> input;
+    cin >> inputInt;
 
     for (int i = 1; i <= inputInt; i++){
         if (inputInt % i == 0) {
@@ -105,24 +114,25 @@ int main() {
     }
 
     if (factors > 2) {
-        cout << input << " is not a prime number";
+        cout << inputInt << " is not a prime number";
     } else {
-        cout << input << " is a prime number";
+        cout << inputInt << " is a prime number";
     }
 
 
 //NUMBER 6
+    cout << "\n-----NUMBER 6-----" << endl;
     int valuesB[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int totalB = 0;
     for (int i = 0; i < sizeof(valuesB)/ sizeof(valuesB[0]); i++) {
         totalB += valuesB[i];
     }
-    cout << total << endl;
     double avg = totalB/ (sizeof(valuesB)/ sizeof(valuesB[0]));
     cout << "Average of the array is " << avg;
 
 
 //NUMBER 7
+    cout << "\n-----NUMBER 7-----" << endl;
     ifstream fin("../input.in");
 //validate file
     if(!fin){
