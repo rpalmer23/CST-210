@@ -1,0 +1,3 @@
+C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/10array/cmake-build-debug/CMakeFiles/10array.dir
+C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/10array/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/regan/OneDrive - Grand Canyon University/CST-210/programs/10array/cmake-build-debug/CMakeFiles/rebuild_cache.dir
